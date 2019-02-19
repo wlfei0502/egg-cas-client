@@ -1,6 +1,4 @@
-# egg-cas-client
-
-# 功能说明  
+# egg-cas-client  
   
   
 以redis作为session存储，支持最基本的单点登录，单点登出功能，暂不支持proxy，pt等功能。  
