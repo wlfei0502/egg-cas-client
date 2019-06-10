@@ -57,7 +57,10 @@ egg-session-redis
      router.get('/login', app.casClient.login(), controller.user.login);  
      
      // 登出  
-     router.get('/logout', app.casClient.logout(), controller.user.logout);  
+     router.get('/logout', app.casClient.logout(), controller.user.logout);
+     
+     // 获取用户名
+     ctx.session.cas.username;
      
  # License  
    MIT
